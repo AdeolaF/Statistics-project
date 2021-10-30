@@ -46,28 +46,3 @@ plt.title('Energy Consumption vs Time of Day')
 plt.show()
 
 
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
