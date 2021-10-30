@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[25]:
+
 
 
 import statsmodels.graphics.gofplots as sm
@@ -15,20 +15,12 @@ Seedling_Height = pd.read_excel(r'C:\Users\20170\Downloads\MATLS3J03_Assignment2
 Seedling_Height.describe()
 
 
-# In[22]:
-
-
 Seedling_Height.hist(color='k',bins=8,grid=False)
-
-
-# In[26]:
 
 
 stats.probplot(Seedling_Height['Seedling Height'], dist="norm", plot=plt);
 plt.show()
 
-
-# In[34]:
 
 
 Sorted_data=Seedling_Height.sort_values("Seedling Height");
@@ -38,8 +30,6 @@ z=(18-mean)/std
 p_z = 1 - norm.cdf(z)
 print("p_z is",p_z)
 
-
-# In[ ]:
 
 
 
